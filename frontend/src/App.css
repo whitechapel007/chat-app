@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Chat Container */
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  background: #4a90e2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Chat Box */
+.chat-box {
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message.own {
+  text-align: right;
+  color: #4a90e2;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.send-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #357ab8;
+}
+
+/* Login/Register Form */
+.login-form,
+.register-form {
+  padding: 20px;
+}
+
+.login-form input,
+.register-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-button,
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: #357ab8;
+}
+
+/* Register Form Header */
+.register-form-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register-form-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
